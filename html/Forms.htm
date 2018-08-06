@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="../stylesheets/customKBbootstrap.css">  
+    
+    <title>
+      Forms
+    </title>
+  </head>
+    
+  <body>
+    <header>
+    <div class="topnav" id="myTopnav">
+      <a href="../Index.htm">
+        <big>Home</big>
+      </a>
+<!--  <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a> -->
+    </div>
+    <h1 align = "center">
+        Forms
+      </h1>
+    </header>
+    <main>
+      <div id = "forms" class = "container-fluid text-left">
+        <div class = "row">
+          <div class = "article col sm-12 col-md-6 col-lg-6 col-xl-6" id= "contact-form">
+            <h3>
+              Contact Form
+            </h3>
+            <p class = "quickref">
+              &lt;form&gt;<br/>
+              &nbsp;&nbsp;&lt;input name = "name" type = text placeholder = "Name"/&gt;&lt'br/&gt;<br/>
+              &nbsp;&nbsp;&lt;input name = "email" type = text placeholder = "someone@example.com"/&gt;<br/>
+              &nbsp;&nbsp;&lt;textarea placeholder="Type your message here"&gt;&lt;/textarea&gt;<br/>
+              &nbsp;&nbsp;&lt;input type = "submit" value = "Send Message  " class ="submit"/&gt;<br/>
+              &lt;/form&gt;<br/>
+            </p>
+            <form>
+              <input name = "name" type = text placeholder = "Name"/><br/>
+              <input name = "email" type = text placeholder = "someone@example.com"/><br/>
+              <textarea placeholder="Type your message here"></textarea><br/>
+              <input type = "submit" value = "Send Message  " class ="submit"/>
+            </form>
+          </div> <!-- End Contact Form -->
+            <div class = "article col sm-12 col-md-6 col-lg-6 col-xl-6" id= "login-form">
+              <h3>
+                <br/>Login
+              </h3>
+              <p class = "quickref">
+                &lt;form&gt;<br/>
+                &nbsp;&nbsp;Username:&lt;br/&gt;<br/>
+                &nbsp;&nbsp;&lt;input type = "text" name = "username" placeholder = "username@email.com" /&gt;&lt;br/&gt;<br/>
+                &nbsp;&nbsp;Password:&lt;br/&gt;<br/>
+                &nbsp;&nbsp;&lt;input type = "password" name = "password" placeholder = "password"/&gt;&lt;br/&gt;<br/>
+                &nbsp;&nbsp;&lt;input type = "submit" value = "Submit"/&gt;<br/>
+                &lt;/form&gt;
+              </p>
+              <form>
+                Username:<br/>
+                <input type = "text" name = "username" placeholder = "username@email.com"/><br/>
+                Password:<br/>
+                <input type = "password" name = "password" placeholder = "password" /><br/>
+                <input type = "submit" value = "Submit"/>
+              </form>
+          </div><!-- Login Form -->
+        </div><!-- Row1 -->
+      </div><!-- Container -->
+
+      <div class = "row" id = "spacing-row">
+        <p>
+
+        </p>
+      </div>
+
+      <div id = "selectors" class = "container-fluid text-left">
+        <div class = "row" id = "row2">
+          <div class = "article col sm-12 col-md-6 col-lg-6 col-xl-6" id= "radio">
+            <h3>
+              Radio
+            </h3>
+            <p class = "quickref">
+             &gt;input type = "radio" name = "gender" value = "male"/&lt;<br/>
+             Male&lt;br/&gt;<br/>
+             &lt;input type = "radio" name = "gender" value = "female"/&gt;<br/>
+             Female&lt;br/&gt;
+            </p>
+            <input type = "radio" name = "gender" value = "male"/>
+              Male <br/>
+            <input type = "radio" name = "gender" value = "female"/>
+              Female<br/>
+          </div><!--Radio -->
+          
+          <div class = "article col sm-12 col-md-6 col-lg-6 col-xl-6" id= "checkbox">
+            <h3>
+              Checkbox
+            </h3>
+            <p class = "quickref">
+              &gt;input type = "checkbox" name = "gender" value = "male"/&lt;<br/>
+              Male&lt;br/&gt;<br/>
+              &lt;input type = "checkbox" name = "gender" value = "female"/&gt;<br/>
+              Female&lt;br/&gt;
+            </p>
+            <input type = "checkbox" name = "gender" value = "male"/>
+              Male <br/>
+            <input type = "checkbox" name = "gender" value = "female"/>
+              Female <br/>
+          </div><!-- checkbox -->
+        </div><!-- row2 -->
+      </div><!--container2 -->
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>

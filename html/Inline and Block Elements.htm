@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- UTF-8 (U from Universal Character Set + Transformation Format—8-bit) -->
+  <meta charset="UTF-8">
+<!-- The X-UA-Compatible meta tag allows web authors to choose what version of Internet Explorer the page should be rendered as. -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- In short, adding this to the viewport meta tag restores pre-Safari 9.0 behaviour. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href= "../stylesheets/CustomKBbootstrap.css">
+
+  <title>
+    Inline and Block Elements
+  </title>
+  </head>
+  
+  <body>
+    <header>
+    <div class="topnav" id="myTopnav">
+      <a href="../Index.htm">
+          <big>Home</big>
+      </a>
+<!--  <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a> -->
+    </div>
+    </header>
+
+    <main>
+      <div>
+        <h1 align = "center">
+          Inline and Block Elements
+        </h1>
+      </div>
+
+      <div class = "container-fluid">
+        <div class = "row">
+          <article class = "col-sm-12 col-md-6 col-lg-6 col-xl-6" align = "left">                
+            <p class = "quickref">
+              &lt;div style = "background-color: green; color: white; padding: 0.01%;"&gt;<br/>
+              &nbsp;&nbsp;&lt;p&gt;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;Some paragraph text goes here<br/>
+              &nbsp;&nbsp;&nbsp;&lt;/p&gt;<br/>
+              &nbsp;&nbsp;&lt;p&gt;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;Another paragraph goes here<br/>
+              &nbsp;&nbsp;&lt;/p&gt;<br/>
+              &lt;/div&gt;<br/>
+            </p>
+              <div style = "background-color: green; color: white; padding: 0.01%;">
+                <p>
+                  Some paragraph text goes here
+                </p>
+              <p>
+                Another paragraph goes here
+              </p>
+            </div><!-- background-color -->
+          </article><!-- Article 1 -->
+
+  <article class = "col-sm-12 col-md-6 col-lg-6 col-xl-6" align = "left">
+    <h2>
+      Some
+      <span style = "color: red">
+        Important
+      </span>
+      Message
+    </h2>
+    <p class = "quickref">
+        &lt;h2&gt;<br/>
+        &nbsp;&nbsp;Some<br/>
+        &nbsp;&nbsp;&lt;span style = "color: red"&gt;<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;Important<br/>
+        &nbsp;&nbsp;&lt;/span&gt;<br/>
+        &nbsp;&nbsp;Message<br/>
+        &lt;/h2&gt;<br/>
+        </p>
+      </article><!-- Article 2 -->
+      </div><!-- Row -->
+      </div><!-- Container -->
+    </main>
+  </body>
+</html>

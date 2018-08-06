@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<!-- from: https://code.sololearn.com/WDo3v0IEAi08/?ref=app#html -->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="../stylesheets/customKBbootstrap.css">
+    <link rel = 'stylesheet' href = '../stylesheets/geolocation.css'>
+
+    <title>
+      Geolocation API
+    </title>
+  </head>
+
+  <body>
+    <header>
+      <a href="../Index.htm" align = 'left'>
+        <big>
+          Home
+        </big>
+      </a>
+      <h1 align = "center">
+        Geolocation API
+      </h1>
+              </header>
+              <nav>
+                <div class="topnav" id="myTopnav">
+          <!--  <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a> -->
+              </nav>
+              <main>
+      <div id="content">
+      <form>
+        <input type="button" onclick = "getLocation ();" value = "show my current position!">
+      </form>
+      <div id="map"></div><br>
+      </div>
+    <footer>
+      <p>have fun coding :)</p>
+    </footer>
+  </body>
+  <script src = '../js/geolocation.js'>
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTwWULwkzvGED8gPqBOP64zTi6xgULgRM&callback=curMap" async defer>
+  </script>
+</html>
