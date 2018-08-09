@@ -35,7 +35,14 @@
     
     <main>
       <div class = "container-fluid">
-        <div class = "row">
+        <div class = "row" id = 'row1'>
+          <div>HTML tag is just opening or closing entity.</div>
+          <div>For example:&nbsp;</div>
+          <div>&lt;p&gt; and &lt;/p&gt; are called HTML tags</div>
+          <div>HTML element encompasses opening tag, closing tag, content (optional for content-less tags) Eg:</div>
+          <div>&lt;p&gt;This is the content&lt;/p&gt; : This complete thing is called a HTML element</div>
+        </div>
+        <div class = "row" id = 'row1'>
           <article class = "col-sm-12 col-md-6 col-lg-6 col-xl-6" align = "left">
 
           <table align="center" style="border: 1px solid black">
@@ -45,7 +52,12 @@
               </td>
             </tr>
           </table>
-
+<p>For SEO (search engine optimization), never use h1 more than once per page. Also never break the structure, for example, don't use h1 then jump to h3. Finally, most websites almost never use headings below h3.</p>
+<div class="text" data-bind="html: replacedMessage()">
+<div class="text" data-bind="html: replacedMessage()">Headings are used to index as he said and are not used for the size !!!</div>
+<div class="text" data-bind="html: replacedMessage()">Exactly. The size is adjusted by default but can be customized with CSS. Mostly headings are used to indicate priority and hierarchy of info from general to specific.</div>
+</div>
+<div class="commentActions">&nbsp;</div>
   	      <h1>
             &lt;h1&gt;Heading&lt;/h1&gt;
   	      </h1>
@@ -69,19 +81,27 @@
           <h6>
             &lt;h6&gt;Heading&lt;/h6&gt;
           </h6>
-
           <p>
             &lt;p&gt;Paragraph&lt;/p&gt;
           </p>
 
           <p>
             This is &lt;br/&gt; <br/> a line break
-          </p
-          >
+          </p>
+
+          <h3>
+            Horizontal Rule
+          </h3>
           <p>
             &lt;hr/&gt;
           </p>
           <hr/>
+          <p>&lt;hr color="blue" size="15"/&gt;
+            <hr color="blue" size="15"/>
+            &lt;hr size = "number in pixels or as percentage"&gt; 
+            <hr size = "99%"> 
+          </p>
+
           </article>
 
           <article>
@@ -105,10 +125,31 @@
               </big>
             </p>
             <p>
+              <big><big>
+                &lt;big&gt;&lt;big&gt; big text &lt;/big&gt;&lt;/big&gt;
+              </big></big>
+            </p>
+            <p>
+              <em>
+                &lt;em&gt; emphasised text &lt;/em&gt;
+              </em>
+            </p>            
+            <p>
               <i> 
                 &lt;i&gt; italicised text &lt;/i&gt;
               </i>
             </p>
+            <p>
+              <mark> 
+                &lt;mark&gt; marked text &lt;/mark&gt;
+              </mark>
+            </p>
+            <p>
+              <pre> 
+                &lt;pre&gt; preformatted text &lt;/pre&gt;
+              </pre>
+            </p>
+
             <p>
               <small> 
                 &lt;small&gt; small text &lt;/small&gt;
@@ -139,8 +180,32 @@
                 &lt;del&gt; deleted text &lt;/del&gt;
               </del>
             </p>
-    </article>>
-    </div><!-- Row1 -->
+            <p>
+              <s> 
+                &lt;s&gt; strikethrough text &lt;/s&gt;
+              </s>
+            </p>
+            <p>
+              <strike> 
+                &lt;strike&gt; striked text &lt;/strike&gt;
+              </strike>
+            </p>
+            <p>
+              <marquee> 
+                &lt;marquee&gt; marquee text &lt;/marquee&gt;
+              </marquee>
+            </p>
+            <p>
+            <! Comment? >
+              &lt;! Comment &gt;
+            </p>
+            <!-- Standard Comment -->
+            <p>
+              &lt;--! Standard Comment --&gt;
+            </p>
+            
+    </article>
+    </div><!-- row2 -->
   </main>
   </body>
 </html>
