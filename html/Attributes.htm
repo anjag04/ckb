@@ -1,7 +1,11 @@
-<!DOCTYPE HTML>
-
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"  lang="en-AU"> <!--<![endif]-->
+  
   <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,7 +13,7 @@
     <link rel="stylesheet" href="../stylesheets/customKBbootstrap.css">  
     
     <title>
-      Attributes
+      Attributes | HTML5
     </title>
   </head>
 
@@ -21,7 +25,7 @@
         </big>
       </a>
       <h1 align = "center">
-        Attributes
+        HTML5 | <strong> Attributes </strong>
       </h1>
     </header>
     <nav>
@@ -33,6 +37,12 @@
     <main>
       <p align = "center"> 
         &lt;p align = "center" &gt;
+      </p>
+      <center> 
+        &lt;center&gt;center&lt;/center&gt;
+      </center>
+      <p align = "middle"> 
+        &lt;p align = "middle" &gt;
       </p>
       <p align = "left">
         &lt;p align = "left" &gt;
@@ -48,6 +58,22 @@
         &lt; hr/ align = "center"; width = 50%&gt;
       </p>    
       <hr/ align = "center"; width = 50%>
+      <h3>
+        Contradicting Styles
+      </h3>
+      <p align="center">
+        &lt;p align="center"&gt;<br/>
+        &lt;hr width="50%" align="left" /&gt;&lt;/p&gt;
+        <hr width="50%" align="left" />
+      </p>
+      <ol>
+      <li>you can have different alignments in each tag of the document.</li>
+      <li>the inner tag alignment overrides the outer tag alignment.<br />In this example &lt;p&gt; is the outer tag and &lt;hr&gt; is the inner tag.</li>
+      </ol>
+      <p style="background-color: yellow; color:blue; padding: 0; margin: 0; font-size:64px;">&lt;p style="background-color: yellow; color:blue; padding: 0; margin: 0; font-size:64px;"&gt;&lt;/p&gt;</p>
+      <p style="background-color: #00ff00; color:black; padding: 0; margin: 0; font-size:4em;">&lt;p style="background-color: #00ff00; color:black; padding: 0; margin: 0; font-size:4em;"&gt;&lt;/p&gt;</p>
+      <p style="background-color: rgb(255,0,255); color:yellow; padding: 0; margin: 0; font-size:48pt;">&lt;p style="background-color: rgb(255,0,255); color:yellow; padding: 0; margin: 0; font-size:48pt;"&gt;&lt;/p&gt;</p>
+      <p style="background-color: yellow; color:blue; padding: 0; margin: 0; padding: 0; margin: 0; font-size:48px;">&lt;p style="background-color: yellow; color:blue; padding: 0; margin: 0; padding: 0; margin: 0; font-size:48px;"&gt;&lt;/p&gt;</p>
     </main>
   </body>
 </html>

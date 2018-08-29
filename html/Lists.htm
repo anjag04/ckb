@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"  lang="en-AU"> <!--<![endif]-->
+  
+  <head>
 
-<head>
 <!-- UTF-8 (U from Universal Character Set + Transformation Format—8-bit) -->
   <meta charset="UTF-8">
 <!-- The X-UA-Compatible meta tag allows web authors to choose what version of Internet Explorer the page should be rendered as. -->
@@ -12,7 +16,7 @@
   <link rel="stylesheet" href= "../stylesheets/CustomKBbootstrap.css">
 
   <title>
-    Lists
+    Lists | HTML5
   </title>
   </head>
     
@@ -27,65 +31,278 @@
       <a href="#about">About</a> -->
     </div>
     <h1 align = "center">
-      Lists
+      HTML5 | <strong> Lists </strong>
     </h1>
     </header>
     
     <main>
     <div class="container" style="width: 50%;">
-    <div class="sidebar" style="width: 200px; float: left;">
+      <div class="sidebar" style="width: 200px; float: left;">
         Sidebar
-    </div>
-    <div class="content" style="margin-left: 202px;">
+      </div>
+      <div class="content" style="margin-left: 202px;">
         content 
-    </div>
-    </div>
-    </div>
-    </header>
+      </div><!-- content -->
+    </div><!-- container -->
 
-    <main>
-      <div class = "container-fluid">
-        <div class = "row">
-          <article class = "col-sm-12 md-6 lg-6 xl-6" align = "left">
-      <h2>
-        Ordererd List
-      </h2>
-      <p class = "quickref">
-        &lt;ol&gt;
-      </p>
-      <ol>
-        <li>
-          Red
-        </li>
-        <li>
-          Blue
-        </li>
-        <li>
-          Green
-        </li>           
-      </ol>
-        </article><!-- Article 1 -->
-
-        <article class = "col-sm-12 md-6 lg-6 xl-6" align = "left">
-        <h2>
-        Unordered List
-      </h2>
-      <p class = "quickref">
-        &lt;ul&gt;
-      </p>
-      <ul>
-        <li>
-          Red
-        </li>
-        <li>
-          Blue
-        </li>
-        <li>
-          Green
-        </li>
-      </ul>
-      </article><!-- Article 2 -->
-    </div><!-- Row -->
+    <div class = "container-fluid">
+      <div class = "row">
+        <article class = "col-sm-12 md-6 lg-6 xl-6" align = "left" id = 'article1'>
+          <h2>
+            Ordererd List
+          </h2>
+          <p class = "quickref">
+            &lt;ol start='10' id = 'arabic-numberals'&gt;
+          </p>
+          <ol start='10' id = 'arabic-numberals'>
+            <li>
+              Red
+            </li>
+            <li>
+              Blue
+            </li>
+            <li>
+              Green
+            </li>           
+          </ol><!-- arabic-numerals -->
+          <p class = "quickref">
+            &lt;ol type = 'a' start = '3' id = 'lowercase-alphabet'&gt;
+          </p>
+          <ol type = 'a' start = '3' id = 'lowercase-alphabet'>
+            <li>
+              Red
+            </li>
+            <li>
+              Blue
+            </li>
+            <li>
+              Green
+            </li>           
+          </ol><!-- lowercase-alphabet -->
+          <p class = "quickref">
+            &lt;ol type = 'A' id = 'uppercase-alphabet'&gt;
+          </p>
+          <ol type = 'A' id = 'uppercase-alphabet'>
+            <li>
+              Red
+            </li>
+            <li>
+              Blue
+            </li>
+            <li>
+              Green
+            </li>           
+          </ol><!-- uppercase-alphabet -->
+          <p class = "quickref">
+            &lt;ol type = 'i'&gt;
+          </p>
+          <ol type = 'i' id = 'lowercase-roman'>
+            <li>
+              Red
+            </li>
+            <li>
+              Blue
+            </li>
+            <li>
+              Green
+            </li>           
+          </ol><!-- lowercase-roman -->
+          <p class = "quickref">
+            &lt;ol type = 'I'&gt;
+          </p>
+          <ol type = 'I' id = 'uppercase-roman'>
+            <li>
+              Red
+            </li>
+            <li>
+              Blue
+            </li>
+            <li>
+              Green
+            </li>           
+          </ol><!-- uppercase-roman -->
+        </article><!-- article 1 -->
+        <article class = "col-sm-12 md-6 lg-6 xl-6" align = "left" id = 'article2'>
+          <h2>
+            Ordererd List, Reversed
+          </h2>
+          <p class = "quickref">
+            &lt;ol reversed type = '1'&gt; (default)
+          </p>
+          <ol reversed type = '1' id = 'arabic-numberals'>
+            <li>
+              Red
+            </li>
+            <li>
+              Blue
+            </li>
+            <li>
+              Green
+            </li>           
+          </ol><!-- arabic-numerals -->
+          <p class = "quickref">
+            &lt;ol reversed type = 'a'&gt;
+          </p>
+          <ol reversed type = 'a' id = 'lowercase-alphabet'>
+            <li>
+              Red
+            </li>
+            <li>
+              Blue
+            </li>
+            <li>
+              Green
+            </li>           
+          </ol><!-- lowercase-alphabet -->
+          <p class = "quickref">
+            &lt;ol reversed type = 'A'&gt;
+          </p>
+          <ol reversed type = 'A' 'id' = 'uppercase-alphabet'>
+            <li>
+              Red
+            </li>
+            <li>
+              Blue
+            </li>
+            <li>
+              Green
+            </li>           
+          </ol><!-- uppercase-alphabet -->
+          <p class = "quickref">
+            &lt;ol reversed type = 'i'&gt;
+          </p>
+          <ol reversed type = 'i' id = 'lowercase-roman'>
+            <li>
+              Red
+            </li>
+            <li>
+              Blue
+            </li>
+            <li>
+              Green
+            </li>           
+          </ol><!-- lowercase-roman -->
+          <p class = "quickref">
+            &lt;ol reversed type = 'I'&gt;
+          </p>
+          <ol reversed type = 'I' id = 'uppercase-roman'>
+            <li>
+              Red
+            </li>
+            <li>
+              Blue
+            </li>
+            <li>
+              Green
+            </li>           
+          </ol><!-- uppercase-roman -->
+        </article><!-- article2 -->
+        <article class = "col-sm-12 md-6 lg-6 xl-6" align = "left" id = 'article3'>
+          <h2>
+            Unordered List
+          </h2>
+          <p class = "quickref">
+            &lt;ul&gt;
+          </p>
+          <ul>
+            <li>
+              Red
+            </li>
+            <li>
+              Blue
+            </li>
+            <li>
+              Green
+            </li>
+          </ul>
+          <p class = "quickref">
+            &lt;bl&gt;
+          </p>
+          <bl>
+            <li>
+              Red
+            </li>
+            <li>
+              Blue
+            </li>
+            <li>
+              Green
+            </li>
+          </bl>
+          <p class = "quickref">
+            &lt;dl&gt;
+          </p>
+          <dl>
+            <li>
+              Red
+            </li>
+            <li>
+              Blue
+            </li>
+            <li>
+              Green
+            </li>
+          </dl>
+          <!--{1,2,3...}= --><ol>
+					  <li>one</li>
+						<li>two</li>
+						<li>three</li>
+          </ol>
+          <!--{•,•,•...}=--><ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+					</ul>
+          <p>
+            &lt;ul type="a"&gt;&lt;/ul&gt;
+          </p>
+          <!--{a,b,c...}=--><ol type="a">
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+					</ol>
+          <p>
+            &lt;ul type="A"&gt;&lt;/ul&gt;
+          </p>
+          <!--{A,B,C...}=--><ol type="A">
+					  <li>one</li>
+				  	<li>two</li>
+						<li>three</li>
+			    </ol>
+          <p>
+            &lt;ul type="i"&gt;&lt;/ul&gt;
+          </p>
+          <!--{i,ii,iii..}=--><ol type="i">
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+				  </ol>
+          <p>
+            &lt;ul type="I"&gt;&lt;/ul&gt;
+          </p>
+          <!--{I,II,III..}=--><ol type="I">
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+          </ol>
+          <p>
+            &lt;ul type="square"&gt;&lt;/ul&gt;
+          </p>
+          <!--{square}=--><ul type="square">
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+          </ul>
+          <p>
+            &lt;ul type="circle"&gt;&lt;/ul&gt;
+          </p>
+          <!--{circle}=--><ul type="circle">
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+          </ul>
+        </article><!-- Article 3 -->
+      </div><!-- Row -->
     </div><!-- container-fluid -->
   </main>
   </body>

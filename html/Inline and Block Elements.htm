@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"  lang="en-AU"> <!--<![endif]-->
+  
+  <head>
 
-<head>
 <!-- UTF-8 (U from Universal Character Set + Transformation Format—8-bit) -->
   <meta charset="UTF-8">
 <!-- The X-UA-Compatible meta tag allows web authors to choose what version of Internet Explorer the page should be rendered as. -->
@@ -31,7 +35,7 @@
     <main>
       <div>
         <h1 align = "center">
-          Inline and Block Elements
+          HTML5 | <strong> Inline and Block Elements </strong>
         </h1>
       </div>
 
@@ -62,7 +66,7 @@
     <h2>
       Some
       <span style = "color: red">
-        Important
+        &lt;span style = "color: red"&gt;
       </span>
       Message
     </h2>
@@ -76,6 +80,54 @@
         &lt;/h2&gt;<br/>
         </p>
       </article><!-- Article 2 -->
+      <!-- APPLET - Just inserts a java applet in the web page. Example: -->
+      <h5>
+        APPLET
+      </h5>
+      <applet code="Bubbles.class">
+        Java applet that draws bubbles.
+      </applet>
+
+      <!--IFRAME - Inline Frame - Inserts a webpage in a web page. Example:-->
+      <h5>
+        IFRAME
+      </h5>
+      <iframe src="https://www.sololearn.com/"></iframe>
+      <h5>
+        INS
+      </h5>
+      <!--INS - Defines inserted text in a document - You see underlined text by default. Example:-->
+      <p>Random <ins>extra</ins> text</p>
+
+      <!-- MAP - Use with an image to define clickable areas. 
+      Check out this example: http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_areamap -->
+      <h5>
+        MAP
+      </h5>
+      <p>Click on the sun or on one of the planets to watch it closer:</p>
+
+      <img src="https://www.w3schools.com/tags/planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+
+      <map name="planetmap">
+        <area shape="rect" coords="0,0,82,126" alt="Sun" href="https://www.w3schools.com/images/sun.gif">
+        <area shape="circle" coords="90,58,3" alt="Mercury" href="https://www.w3schools.com/tags/merglobe.gif">
+        <area shape="circle" coords="124,58,8" alt="Venus" href="https://www.w3schools.com/images/venglobe.gif">
+      </map>
+
+      <!--OBJECT - Embed a object in a web page. Object can be: audio, video, Java/ActiveX applet, pdf, Flash etc.. Example:-->
+      <h5>
+        OBJECT
+      </h5>
+      <object data="flashAnimation.swf"></object>
+
+      <!--SCRIPT - Insert a script. JavaScript by default. Example:-->
+      <h5>
+        SCIPT
+      </h5>
+      <script>
+        alert("Hello World!")
+      </script>
+
       </div><!-- Row -->
       </div><!-- Container -->
     </main>

@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"  lang="en-AU"> <!--<![endif]-->
+  
+  <head>
 
-<head>
 <!-- UTF-8 (U from Universal Character Set + Transformation Format—8-bit) -->
   <meta charset="UTF-8">
 <!-- The X-UA-Compatible meta tag allows web authors to choose what version of Internet Explorer the page should be rendered as. -->
@@ -12,7 +16,7 @@
   <link rel="stylesheet" href= "../stylesheets/CustomKBbootstrap.css">
 
   <title>
-    Tables
+    Tables | HTML5
   </title>
   </head>
     
@@ -27,7 +31,7 @@
       <a href="#about">About</a> -->
     </div>
     <h1 align = "center">
-      Tables
+      HTML5 |<strong>Tables</strong>
     </h1>
     </header>
     
@@ -75,6 +79,28 @@
         <td colspan = "2" br/>
           Orange 
         </td>
+      </tr>
+    </table>
+    <p>
+    &lt;table border="1"&gt;<br/>
+    &nbsp;&nbsp;&lt;tr&gt;<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;red&lt;/td&gt;<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;green&lt;/td&gt;<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;td rowspan="2">yellow&gt;/td&gt;<br/>
+    &nbsp;&lt;/tr&gt;<br/>
+    &nbsp;&lt;tr&gt;<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;td colspan="2">blue&lt;/td&gt;<br/>
+    &nbsp;&lt;/tr&gt;<br/>
+    &lt;/table&gt;<br/>
+    </p>
+    <table border="1">
+      <tr>
+        <td>red</td>
+        <td>green</td>
+        <td rowspan="2">yellow</td>
+      </tr>
+      <tr>
+        <td colspan="2">blue</td>
       </tr>
     </table>
     
